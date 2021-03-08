@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_kotak"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/img_item"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        tools:src="@color/cardview_dark_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/img_item"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/nama_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textSize="16sp"
+            android:textColor="@color/red"
+            tools:text="@string/nama_bangun"/>
+
+        <TextView
+            android:id="@+id/item_detil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/green"
+            android:maxLines="2"
+            android:ellipsize="end"
+            tools:text="@string/detil"/>
+    </LinearLayout>
+
+</RelativeLayout>

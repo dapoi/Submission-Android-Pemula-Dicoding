@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Math Geometry</string>
+    <string name="icon">Item Math</string>
+    <string name="nama_bangun">Nama bangun ruang atau datar</string>
+    <string name="detil">Detil item</string>
+    <string name="rumus">Rumus</string>
+    <string name="judul_rumus">Nama Rumus</string>
+    <string name="math">Math</string>
+    <string name="geometry">Geometry</string>
+    <string name="link">linkedin.com/in/luthfi-daffa-prabowo</string>
+    <string name="name">Luthfi Daffa Prabowo</string>
+    <string name="email">A1901915@bangkit.academy</string>
+    <string name="telp">+6287771276214</string>
+    <string name="back"><![CDATA[<]]></string>
+</resources>
