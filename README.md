@@ -1,1 +1,1 @@
-"# Aplikasi ini merupakan aplikasi pertama saya menggunakan bahasa kotlin" 
+"# Aplikasi ini merupakan projek pertama saya menggunakan bahasa kotlin" 
